@@ -1,4 +1,6 @@
 """
+hint Language: german
+-----------------------------------------------------------------------------------------------------------------------------------------
 Terrain-Differenz-Berechnung für bDOM und DGM Daten (Batch-Verarbeitung)
 Mit separaten Gebäude- und Wald-Klassen und parallelisierter Connected Components Filterung
 """
