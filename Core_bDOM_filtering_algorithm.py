@@ -1,6 +1,32 @@
 """
-hint Language: german
+Licence:
+The program calculates the difference between two image-based digital surface models and 
+filters out the resulting errors. The script is divided into a building filter and a 
+forest filter, which filter different elevation ranges with different parameters.
+Copyright (©) 2026  Fabian Britze
+E-Mail: fabian.britze@gmail.com
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 as published by
+the Free Software Foundation. 
+>> see <https://www.gnu.org/licenses/> for more Information.
+
+
+Deutsch:
+Lizenz:
+Das Programm berechnet die Differenz aus 2 bildbasierten digitalen Oberflächenmodellen und 
+filtert die dabei auftauchenden Fehler. Das Skript teilt sich dabei in eine Gebäude und 
+eine Wald Filterung, die unterschiedliche Höhenbereiche mit verschiedenen Parametern filtern. 
+Copyright (C) 2026  Fabian Britze
+E-Mail: fabian.britze@gmail.com
+
+Dieses Programm ist freie Software: Sie können es weitergeben und/oder verändern
+unter den Bedingungen der GNU General Public License Version 3, wie sie von der 
+Free Software Foundation veröffentlicht wurde.
+>> Weitere Informationen finden Sie unter <https://www.gnu.org/licenses/>.
+
 -----------------------------------------------------------------------------------------------------------------------------------------
+
 Terrain-Differenz-Berechnung für bDOM und DGM Daten (Batch-Verarbeitung)
 Mit separaten Gebäude- und Wald-Klassen und parallelisierter Connected Components Filterung
 """
