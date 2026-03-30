@@ -1,5 +1,5 @@
 """
-Licence:
+LICENSE:
 The program calculates the difference between two image-based digital surface models and 
 filters out the resulting errors. The script is divided into a building filter and a 
 forest filter, which filter different elevation ranges with different parameters.
@@ -13,7 +13,7 @@ the Free Software Foundation.
 
 
 Deutsch:
-Lizenz:
+LIZENZ:
 Das Programm berechnet die Differenz aus 2 bildbasierten digitalen Oberflächenmodellen und 
 filtert die dabei auftauchenden Fehler. Das Skript teilt sich dabei in eine Gebäude und 
 eine Wald Filterung, die unterschiedliche Höhenbereiche mit verschiedenen Parametern filtern. 
