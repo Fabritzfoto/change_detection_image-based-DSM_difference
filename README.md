@@ -1,9 +1,6 @@
 # change detection - image-based-DSM difference
 
 > [!NOTE]
-> 🇩🇪 Deutsche Version siehe unten
-
-> [!NOTE]
 > 🇩🇪 [Zur deutschen Version springen](#veränderungsdetektion-auf-basis-vpn-bdom-differenz-tdom-mit-filterung)
 ---
 
