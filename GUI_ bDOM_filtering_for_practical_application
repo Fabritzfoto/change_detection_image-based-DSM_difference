@@ -1630,11 +1630,14 @@ class TerrainDiffApp:
         messagebox.showinfo(
             "Lizenz",
             "Dieses Programm wird in der Hoffnung verbreitet, dass es in unterschiedlichsten Anwendungen nützlich sein wird, aber OHNE JEGLICHE GEWÄHRLEISTUNG.\n\n"
-            "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007\n"
             "Copyright (C) 2026  Fabian Britze\n"
             "E-Mail: fabian.britze@gmail.com\n\n"
-            "DOI: \nhttps://doi.org/10.5281/zenodo.19392547\n"
-            "Repository: \nhttps://github.com/Fabritzfoto/change_detection_image-based-DSM_difference"
+            "Lizenz: \n"
+            "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007\n\n"
+            "DOI: \n"
+            "https://doi.org/10.5281/zenodo.19392547\n\n"
+            "Repository: \n"
+            "https://github.com/Fabritzfoto/change_detection_image-based-DSM_difference"
         )
 
     def _on_close(self):
