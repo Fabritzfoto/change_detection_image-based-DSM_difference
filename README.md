@@ -52,6 +52,7 @@ Jede Klasse wird als binäres Raster gespeichert.
 * Cluster unter einem festgelegten Schwellwert werden gefiltert
 
 Grundlegender Ansatz:
+> [!IMPORTANT]
 > Fehldetektionen bspw. durch Blattsatndveränderungen zeigen oft fragmentierte Muster, während bspw. Gebäudeveränderungen kompakte gleichmäßigere Strukturen bilden. 
 > Folglich sind bspw. an veränderten Gebäuden größere Cluster vor zufinden
 
@@ -105,8 +106,6 @@ Daraus folgt:
 * gute Erkennung von Gebäudeänderungen
 * gute Erkennung von größeren Vegetationsänderungen
 * effiziente Unterstützung bei der Aktualisierung der tatsächlichen Nutzung
-
-erzeugtes tDOM:                                                           gefiltertes tDOM: 
 
 <img width="460" height="285" alt="image" src="https://github.com/user-attachments/assets/17db1817-eb7a-4a0c-98fc-4137d47cd99b" />
 
