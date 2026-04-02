@@ -8,6 +8,11 @@ forest filter, which filter different elevation ranges with different parameters
 Copyright (©) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
 
+<https://doi.org/10.5281/zenodo.19392547>
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY.
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 as published by
 the Free Software Foundation. 
@@ -21,6 +26,11 @@ filtert die dabei auftauchenden Fehler. Das Skript teilt sich dabei in eine Geb�
 eine Wald Filterung, die unterschiedliche Höhenbereiche mit verschiedenen Parametern filtern. 
 Copyright (C) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
+
+<https://doi.org/10.5281/zenodo.19392547>
+
+Dieses Programm wird in der Hoffnung verbreitet, dass es nützlich sein wird,
+aber OHNE JEGLICHE GEWÄHRLEISTUNG.
 
 Dieses Programm ist freie Software: Sie können es weitergeben und/oder verändern
 unter den Bedingungen der GNU General Public License Version 3, wie sie von der 
@@ -942,6 +952,7 @@ class TerrainDiffApp:
         m_help.add_separator()
         m_help.add_command(label="Kontakt",    command=self._show_kontakt)
         m_help.add_command(label="Über …",     command=self._show_about)
+        m_help.add_command(label="Lizenz",     command=self._show_lizenz)
         m_help.add_separator()
         m_help.add_command(label="Bachelorarbeit herunterladen … 📄",command=self._download_bachelorarbeit)
         menubar.add_cascade(label="Hilfe", menu=m_help)
@@ -1613,6 +1624,17 @@ class TerrainDiffApp:
             "Institut:\n"
             "Hochschule Anhalt Dessau - FB3 \n"
             "In Kooperation mit dem Landkreis Spree Neiße - FB 62"
+        )
+
+    def _show_lizenz(self):
+        messagebox.showinfo(
+            "Lizenz",
+            "Dieses Programm wird in der Hoffnung verbreitet, dass es in unterschiedlichsten Anwendungen nützlich sein wird, aber OHNE JEGLICHE GEWÄHRLEISTUNG.\n\n"
+            "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007\n"
+            "Copyright (C) 2026  Fabian Britze\n"
+            "E-Mail: fabian.britze@gmail.com\n\n"
+            "DOI: \nhttps://doi.org/10.5281/zenodo.19392547\n"
+            "Repository: \nhttps://github.com/Fabritzfoto/change_detection_image-based-DSM_difference"
         )
 
     def _on_close(self):
