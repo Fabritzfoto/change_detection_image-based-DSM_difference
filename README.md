@@ -11,6 +11,8 @@
 Dieses Programm implementiert einen Python-basierten Workflow zur Detektion potenzieller Nutzungsänderungen auf Basis **digitaler Oberflächenmodelle (bDOM)**.
 Die Entwicklung erfolgte im Rahmen einer Bachelorarbeit im Studiengang Vermessung und Geoinformatik an der Hochschule Anhalt Dessau.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19392547.svg)](https://doi.org/10.5281/zenodo.19392547)
+
 ---
 
 ## 📖 Hintergrund
@@ -143,5 +145,6 @@ Fabian Britze
 
 ## 📌 Zitierung
 
-Bei Nutzung des Projekts bitte den zugehörigen DOI (z. B. über Zenodo) verwenden.
+Bei Nutzung des Projekts bitte den zugehörigen [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19392547.svg)](https://doi.org/10.5281/zenodo.19392547)
+ verwenden.
 
