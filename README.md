@@ -6,7 +6,7 @@
 
 # Veränderungsdetektion auf Basis vpn bDOM Differenz (tDOM) mit Filterung
 
-### Filterbasierte Detektion von Nutzungsänderungen mit digitalen Oberflächenmodellen
+### Detektion von Nutzungsänderungen mit gefiltertem digitalen Oberflächenmodellen
 
 Dieses Programm implementiert einen Python-basierten Workflow zur Detektion potenzieller Nutzungsänderungen auf Basis **digitaler Oberflächenmodelle (bDOM)**.
 Die Entwicklung erfolgte im Rahmen einer Bachelorarbeit im Studiengang Vermessung und Geoinformatik an der Hochschule Anhalt Dessau.
@@ -105,6 +105,12 @@ Daraus folgt:
 * gute Erkennung von Gebäudeänderungen
 * gute Erkennung von größeren Vegetationsänderungen
 * effiziente Unterstützung bei der Aktualisierung der tatsächlichen Nutzung
+
+erzeugtes tDOM:                                                           gefiltertes tDOM: 
+
+<img width="460" height="285" alt="image" src="https://github.com/user-attachments/assets/17db1817-eb7a-4a0c-98fc-4137d47cd99b" />
+
+<img width="460" height="285" alt="image" src="https://github.com/user-attachments/assets/2a9be4fa-e273-4d72-a2f1-4e60b2c9fdcb" />
 
 ---
 
