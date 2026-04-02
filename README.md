@@ -62,6 +62,11 @@ Grundlegender Ansatz:
 Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten wird. 
 > Ergebnis: gefilterte 1Km² Raster
 
+### Raster Merge
+
+Die Dartellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
+`GUI_terrainTIFF_merge` führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
+
 ---
 
 ## 🖥️ Funktionen der 
@@ -75,6 +80,7 @@ Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten w
 * Schnittstelle für Benutzerdefiniertes Dateimanagement 
 * Ausgabe von Protokolldatei
 * Soft-Stop Berechnungsabbruch zur Fehler vermeidung
+* Speichersparende LZW Komprimierung 
 
 📂 Ausgabe
 
