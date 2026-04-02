@@ -6,6 +6,11 @@ forest filter, which filter different elevation ranges with different parameters
 Copyright (©) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
 
+<https://doi.org/10.5281/zenodo.19392547>
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY.
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License version 3 as published by
 the Free Software Foundation. 
@@ -19,6 +24,11 @@ filtert die dabei auftauchenden Fehler. Das Skript teilt sich dabei in eine Geb�
 eine Wald Filterung, die unterschiedliche Höhenbereiche mit verschiedenen Parametern filtern. 
 Copyright (C) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
+
+<https://doi.org/10.5281/zenodo.19392547>
+
+Dieses Programm wird in der Hoffnung verbreitet, dass es nützlich sein wird,
+aber OHNE JEGLICHE GEWÄHRLEISTUNG.
 
 Dieses Programm ist freie Software: Sie können es weitergeben und/oder verändern
 unter den Bedingungen der GNU General Public License Version 3, wie sie von der 
