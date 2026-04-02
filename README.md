@@ -62,15 +62,6 @@ Grundlegender Ansatz:
 Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten wird. 
 > Ergebnis: gefilterte 1Km² Raster
 
-### Raster Merge
-
-* Die Dartellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
-* `GUI_terrainTIFF_merge` führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
-
-### Darstellung
-
-* Kann im Programm ArgGIS Pro aus `tDOM -14 bis +30m.lyrx` entnommen werden. 
-
 ---
 
 ## 🖥️ Funktionen der 
@@ -94,6 +85,15 @@ Das Programm erzeugt automatisch die Ergebnisordnerstruktur:
 * `02/03_Klassifikation` – klassifizierte Höhenbereiche
 * `04/05_Masken` – gefilterte Masken
 * `06_tDOM_final` – finales Ergebnis
+
+### 🔗​ Raster Merge
+
+* Die Dartellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
+* `GUI_terrainTIFF_merge` führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
+
+### 🖌️​ Darstellung
+
+* Kann im Programm ArgGIS Pro aus `tDOM -14 bis +30m.lyrx` entnommen werden.
 
 ---
 
