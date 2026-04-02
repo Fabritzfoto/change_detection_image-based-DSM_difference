@@ -1,10 +1,10 @@
-# change detection - image-based DSM difference
+# change detection - image-based-DSM difference
 
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# bDOM Veränderungsdetektion mit Filterung
+# Veränderungsdetektion auf Basis vpn bDOM Differenz (tDOM) mit Filterung
 
 ### Filterbasierte Detektion von Nutzungsänderungen mit digitalen Oberflächenmodellen
 
