@@ -1,0 +1,588 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.5.0",
+  "build" : 57366,
+  "layers" : [
+    "CIMPATH=Karte/tDOM_20_23_Werchow_tif.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "tDOM_20_23_Werchow.tif",
+      "uRI" : "CIMPATH=Karte/tDOM_20_23_Werchow_tif.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "tDOM_20_23_Werchow.tif",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Karte/59dd0a81f5a54da283a41b414a9e017b.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\..\\Beispielberechnung\\Ergebnisse\\Zusammengefügtes Raster",
+        "workspaceFactory" : "Raster",
+        "dataset" : "tDOM_20_23_Werchow.tif",
+        "datasetType" : "esriDTAny"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterStretchColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "backgroundColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorRamps" : [
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  169,
+                  0,
+                  230,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  223,
+                  115,
+                  255,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Clockwise"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  223,
+                  115,
+                  255,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  230,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Clockwise"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  230,
+                  0,
+                  0,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  127,
+                  127,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Counterclockwise"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  127,
+                  127,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  255,
+                  255,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Counterclockwise"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  255,
+                  255,
+                  255,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  115,
+                  178,
+                  255,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Counterclockwise"
+            },
+            {
+              "type" : "CIMPolarContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  115,
+                  178,
+                  255,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "values" : [
+                  0,
+                  77,
+                  168,
+                  100
+                ]
+              },
+              "interpolationSpace" : "HSV",
+              "polarDirection" : "Counterclockwise"
+            }
+          ],
+          "weights" : [
+            0.29899999999999999,
+            0.00099999999999996966,
+            0.3000000000000001,
+            0.049999999999999975,
+            0.049999999999999975,
+            0.3000000000000001
+          ]
+        },
+        "colorScheme" : "Multipart-Farbschema",
+        "customStretchMax" : 14,
+        "customStretchMin" : -30,
+        "gammaValue" : 1,
+        "maxPercent" : 0.5,
+        "minPercent" : 0.5,
+        "standardDeviationParam" : 2,
+        "statsType" : "Dataset",
+        "stretchClasses" : [
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "-30",
+            "value" : -30
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "value" : -6
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "14",
+            "value" : 14
+          }
+        ],
+        "stretchStats" : {
+          "type" : "StatsHistogram",
+          "min" : -20,
+          "max" : 14,
+          "mean" : -0.12765208951408999,
+          "stddev" : 8.2096601057811007,
+          "limitMin" : -20,
+          "limitMax" : 14,
+          "histogram" : [
+            0.00053785501203242655,
+            0.00077628558437669811,
+            0.0010646202300023289,
+            0.0013113681478934937,
+            0.0015497987202377653,
+            0.0017688221529726194,
+            0.0016884211460193184,
+            0.001754959910394464,
+            0.001929624166879221,
+            0.0022207312610204827,
+            0.0021292404600046578,
+            0.00226509043727058,
+            0.0024647067303960163,
+            0.0020044802768012598,
+            0.00192685171836359,
+            0.0028140352433655307,
+            0.0029471127721158218,
+            0.0032215851751632974,
+            0.0036319075554766948,
+            0.0034516984019606757,
+            0.0034905126811795107,
+            0.0040089605536025195,
+            0.0040339125902431995,
+            0.0042252115378217424,
+            0.0047852461379792174,
+            0.0041836248100872763,
+            0.0042834329566499947,
+            0.0046798930943852375,
+            0.0041559003249309664,
+            0.0037982544664145585,
+            0.0033408004613354331,
+            0.0027530413760216473,
+            0.0027946281037561135,
+            0.0031550464107881517,
+            0.0026421434353964047,
+            0.002872256662193783,
+            0.002919388286959511,
+            0.002661550575005822,
+            0.0025645148769587347,
+            0.0029277056325064045,
+            0.0026948199571933951,
+            0.0026227362957869874,
+            0.0028306699344593173,
+            0.0021902343273485412,
+            0.0018575405054728133,
+            0.0012226497953932995,
+            0.0012115600013307753,
+            0.0014222660885187361,
+            0.0017355527707850465,
+            0.0016385170727379592,
+            0.0015137568895345612,
+            0.0012753263171902897,
+            0.0017106007341443669,
+            0.00210983332039524,
+            0.0024591618333647544,
+            0.0023205394075832011,
+            0.0021957792243798031,
+            0.002351036341255143,
+            0.0021264680114890266,
+            0.0018630854025040754,
+            0.0020322047619575705,
+            0.0021042884233639782,
+            0.0021042884233639782,
+            0.0022512281946924246,
+            0.0023288567531300946,
+            0.0020100251738325221,
+            0.0018519956084415512,
+            0.0014527630221906778,
+            0.0010951171636742706,
+            0.0011505661339868919,
+            0.0010563028844554356,
+            0.0012087875528151442,
+            0.0010812549210961152,
+            0.00091490801015825139,
+            0.00068202233484524193,
+            0.00080678251804863982,
+            0.00070420192297029048,
+            0.00074856109922038746,
+            0.0007956927239861156,
+            0.00076796823882980495,
+            0.00077628558437669811,
+            0.001117296751799319,
+            0.0010008539141428143,
+            0.00097312942898650375,
+            0.0010978896121899015,
+            0.0012115600013307753,
+            0.0012309671409401928,
+            0.0015913854479722312,
+            0.0015581160657846583,
+            0.0012171048983620374,
+            0.0010784824725804843,
+            0.0011866079646900957,
+            0.0016801038004724252,
+            0.00210983332039524,
+            0.0022235037095361138,
+            0.0024175751056302883,
+            0.0024563893848491233,
+            0.0024480720393022302,
+            0.00226509043727058,
+            0.0021819169818016481,
+            0.0020183425193794151,
+            0.002234593503598638,
+            0.0022678628857862111,
+            0.001976755791644949,
+            0.0018686302995353375,
+            0.001929624166879221,
+            0.0019823006886762113,
+            0.0019684384460980559,
+            0.0024952036640679583,
+            0.0023732159293801914,
+            0.0027280893393809677,
+            0.0026920475086777639,
+            0.0027280893393809677,
+            0.0025700597739899971,
+            0.0029609750146939772,
+            0.0027197719938340747,
+            0.0026171913987557251,
+            0.0027391791334434919,
+            0.0038259789515708693,
+            0.0032576270058665012,
+            0.0029027535958657249,
+            0.0024425271422709679,
+            0.0027585862730529092,
+            0.0034683330930544618,
+            0.0031994055870382485,
+            0.0032188127266476662,
+            0.0035681412396171802,
+            0.0027669036185998027,
+            0.0040505472813369857,
+            0.0046688033003227129,
+            0.0043222472358688301,
+            0.0033019861821165981,
+            0.003121777028600579,
+            0.0027114546482871812,
+            0.0029166158384438803,
+            0.00027724485156310649,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0.034611247269138209,
+            0.034561343195856853,
+            0.034744324797888505,
+            0.039077661827819854,
+            0.033044813857806658,
+            0.032224169097179865,
+            0.030948842779989577,
+            0.028497998292171714,
+            0.027782706575138899,
+            0.028043316735608219,
+            0.024256152063256185,
+            0.019731516085746286,
+            0.018289842857618133,
+            0.015373227019174254,
+            0.01369589566721746,
+            0.0095261330997083379,
+            0.0083533873775963972,
+            0.0087803444490035815,
+            0.0098810065097091147,
+            0.0085724108103312525,
+            0.0074384793674381463,
+            0.0065512958424362062,
+            0.005176161378683198,
+            0.0053009215618865955,
+            0.0054644960243088285,
+            0.0048434675568074697,
+            0.0052011134153238771,
+            0.0058138245372783429,
+            0.0051262573054018388,
+            0.0049571379459483434,
+            0.0054589511272775662,
+            0.0050874430261830042,
+            0.0052011134153238771,
+            0.0058470939194659151,
+            0.0053674603262617417,
+            0.0047686114468854313,
+            0.0049266410122764019,
+            0.0046604859547758198,
+            0.0040145054506337818,
+            0.0042252115378217424,
+            0.0043277921329000924,
+            0.0046604859547758198,
+            0.0052038858638395087,
+            0.0046632584032914506,
+            0.0044553247646191207,
+            0.0045495880141505777,
+            0.0043915584487596061,
+            0.0041642176704778594,
+            0.0043832411032127131,
+            0.0043943308972752377,
+            0.0039036075100085392,
+            0.0041115411486808686,
+            0.0037012187683674713,
+            0.0035348718574296075,
+            0.0041448105308684417,
+            0.0026421434353964047,
+            0.0024286648996928125,
+            0.0021708271877391239,
+            0.0014111762944562119,
+            0.0012753263171902897,
+            0.0012670089716433966,
+            0.00132800283898728,
+            0.0013113681478934937,
+            0.0013252303904716489,
+            0.0014527630221906778,
+            0.0015941578964878622,
+            0.0012004702072682511,
+            0.00092877025273640666,
+            0.00096481208343961048,
+            0.0011117518547680569,
+            0.0011228416488305811,
+            0.0012780987657059208,
+            0.0016634691093786388,
+            0.0017965466381289299,
+            0.001793774189613299,
+            0.0021431027025828131,
+            0.002101515974848347,
+            0.0023843057234427156,
+            0.0027807658611779581,
+            0.0023815332749270845,
+            0.0027086821997715504,
+            0.0026809577146152397,
+            0.0019407139609417454,
+            0.0014444456766437848,
+            0.0015830681024253379,
+            0.0015137568895345612,
+            0.0017050558371131048,
+            0.0016496068668004835,
+            0.0016246548301598039,
+            0.0014278109855499984,
+            0.00013862242578155325
+          ],
+          "nsamples" : 360692,
+          "resolution" : 0.13333333333333333
+        },
+        "stretchType" : "MinimumMaximum",
+        "useCustomStretchMinMax" : true
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Boden",
+      "uRI" : "CIMPATH=Karte/59dd0a81f5a54da283a41b414a9e017b.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Boden",
+      "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
