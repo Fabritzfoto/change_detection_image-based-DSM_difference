@@ -76,6 +76,10 @@ The filtering process creates a boolean mask which is applied to the tDOM.
 
 > Result: filtered 1 km² raster tiles
 
+<img width="311" height="453" alt="image" src="https://github.com/user-attachments/assets/913833d5-961a-44e0-8325-b7a6f9c5b0ba" />
+
+(language: german)
+
 ---
 
 ## 🖥️ Functions
@@ -158,7 +162,7 @@ GNU General Public License (GPL v3).
 
 ## 👤 Author
 
-Fabian Britze
+B.Eng. Fabian Britze
 
 ---
 
@@ -220,7 +224,7 @@ Jede Klasse wird als binäres Raster gespeichert.
 Grundlegender Ansatz:
 > [!IMPORTANT]
 > Fehldetektionen bspw. durch Blattbestandsveränderungen zeigen oft fragmentierte Muster, während bspw. Gebäudeveränderungen kompakte gleichmäßigere Strukturen bilden. 
-> Folglich sind bspw. an veränderten Gebäuden größere Cluster vor zufinden.
+> Folglich sind bspw. an veränderten Gebäuden größere Cluster vorzufinden.
 
 (Die Filterung ist mittels Multiprocessing parallelisiert, um die Performance zu erhöhen)
 
@@ -228,6 +232,8 @@ Grundlegender Ansatz:
 
 Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten wird. 
 > Ergebnis: gefilterte 1Km² Raster
+
+<img width="311" height="453" alt="image" src="https://github.com/user-attachments/assets/913833d5-961a-44e0-8325-b7a6f9c5b0ba" />
 
 ---
 
@@ -303,7 +309,7 @@ GNU General Public License (GPL v3).
 
 ## 👤 Autor
 
-Fabian Britze
+B.Eng. Fabian Britze
 
 ---
 
