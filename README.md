@@ -86,7 +86,7 @@ The filtering process creates a boolean mask which is applied to the tDOM.
 
 ## 🖥️ Functions
 
-(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
+(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_ bDOM_filtering_for_practical_application.py))
 
 * Implementation of the `Core_bDOM_fitering_algorithm.py` script
 * Graphical user interface (GUI) for easy application
