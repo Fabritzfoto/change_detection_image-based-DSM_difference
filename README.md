@@ -72,11 +72,13 @@ Basic principle:
 
 ---
 
-### 5. Result generation
+### 4. Result generation
 
 The filtering process creates a boolean mask which is applied to the tDOM.
 
 > Result: filtered 1 km² raster tiles
+
+Structural diagram:
 
 <img width="311" height="453" alt="image" src="https://github.com/user-attachments/assets/913833d5-961a-44e0-8325-b7a6f9c5b0ba" />
 
@@ -144,6 +146,22 @@ This results in:
 * Errors are reduced but not completely eliminated
 * → not a fully automated solution – expert validation is still required
 
+---
+
+## 💾 Pre-compiled Version
+A ready-to-use executable file is available in the `release/` folder.
+
+Note:
+- For Windows only
+- No Python installation required
+
+Windows Defender blocking execution?
+- caused by the missing code signing certificate in the code
+
+Solution:
+1. Right-click the downloaded .exe file
+2. Properties
+3. At the very bottom, under Security, check the "Unblock" box.
 ---
 
 ## 🎓 Scientific context
@@ -232,10 +250,12 @@ Grundlegender Ansatz:
 
 (Die Filterung ist mittels Multiprocessing parallelisiert, um die Performance zu erhöhen)
 
-### 5. Ergebnisgenerierung
+### 4. Ergebnisgenerierung
 
 Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten wird. 
 > Ergebnis: gefilterte 1Km² Raster
+
+Strukturdiagram:
 
 <img width="311" height="453" alt="image" src="https://github.com/user-attachments/assets/913833d5-961a-44e0-8325-b7a6f9c5b0ba" />
 
