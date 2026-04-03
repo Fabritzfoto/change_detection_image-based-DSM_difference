@@ -241,7 +241,7 @@ Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten w
 * Automatische Suche nach bereits vollständig berechneten Km² Rastern -> werden Übersprungen
 * Schnittstelle für Benutzerdefiniertes Dateimanagement 
 * Ausgabe von Protokolldatei
-* Soft-Stop Berechnungsabbruch zur Fehler vermeidung
+* Soft-Stop Berechnungsabbruch zur Fehlervermeidung
 * Speichersparende LZW Komprimierung 
 
 📂 Ausgabe
