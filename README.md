@@ -170,6 +170,9 @@ B.Eng. Fabian Britze
 
 When using this project, please use the associated DOI [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19392547.svg)](https://doi.org/10.5281/zenodo.19392547)
 
+---
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Veränderungsdetektion auf Basis vpn bDOM Differenz (tDOM) mit Filterung
