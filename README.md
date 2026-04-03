@@ -86,11 +86,9 @@ The filtering process creates a boolean mask which is applied to the tDOM.
 
 ## 🖥️ Functions
 
-(Script: [GUI_bDOM_filtering_for_practical_application.py](src/gui/GUI_bDOM_filtering_for_practical_application.py)
+(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
 
-)
-
-* Implementation of the `Core_bDOM_fitering_algorithm.py` script
+* Implementation of the [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) script
 * Graphical user interface (GUI) for easy application
 * Interfaces to control all algorithm parameters (thresholds and classes)
 * Automatic detection of connected 1 km² raster tiles in selected directories
@@ -120,7 +118,7 @@ The program automatically generates a structured output folder system:
 
 ### 🖌️ Visualization
 
-* Visualization can be applied in ArcGIS Pro using [`tDOM -14 bis +30m.lyrx`](docs/tDOM -14 bis +30m.lyrx).
+* Visualization can be applied in ArcGIS Pro using `docs/tDOM -14 bis +30m.lyrx`.
 
 ---
 
@@ -205,7 +203,7 @@ Dazu werden 3 Datenquellen genutzt:
 ---
 
 ## ⚙️ Methodik der bDOM Filterung (vgl. Bachelorarbeit)
-(Skript: [`Core_bDOM_filtering_algorithm.py`](src/Core_bDOM_filtering_algorithm.py))
+(Script: [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py))
 
 Der Workflow basiert auf einem mehrstufigen Filteransatz:
 
@@ -244,9 +242,9 @@ Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten w
 ---
 
 ## 🖥️ Funktionen der 
-(Skript: `GUI_bDOM_filtering_for_practical_application`)
+(Skript: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
 
-* Implementierung des `Core_bDOM_fitering_algorithm Skripts`
+* Implementierung des [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) Skripts
 * Grafische Benutzeroberfläche (GUI) zur einfachen Anwendung/Benutzung
 * Schnittstellen um alle Parameter des Algorythmus benutzerdefiniert zu steuern (Schwellwerte und Klassen)
 * Automatische Suche nach zusammenhängenden Km² Rastern in angegeben Ordnern
@@ -268,7 +266,7 @@ Das Programm erzeugt automatisch die Ergebnisordnerstruktur:
 ### 🔗​ Raster Merge
 
 * Die Darstellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
-* `GUI_terrainTIFF_merge` führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
+* [`GUI_terrainTIFF_merge.py`](src/gui/GUI_terrainTIFF_merge.py) führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
 
 ### 🖌️​ Darstellung
 
