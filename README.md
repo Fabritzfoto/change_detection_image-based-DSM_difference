@@ -243,6 +243,7 @@ Die Filterung erstellt eine booleanische Maske mit der das tDOM ausgeschnitten w
 
 ## 🖥️ Funktionen der 
 (Skript: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
+(exe Programm: [`release/bDOM_changedetection.exe`](release/bDOM_changedetection.exe))
 
 * Implementierung des [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) Skripts
 * Grafische Benutzeroberfläche (GUI) zur einfachen Anwendung/Benutzung
@@ -293,6 +294,23 @@ Daraus folgt:
 
 * Fehler werden nicht vollumfänglich entfernt
 * -> keine vollautomatische Lösung – fachliche Prüfung weiterhin erforderlich
+
+---
+
+## 💾 Vorkompilierte Version
+Im Ordner `release/` steht eine sofort einsatzbereite ausführbare Datei zur Verfügung.
+
+Hinweis:
+- Nur für Windows
+- Keine Python-Installation erforderlich
+
+Windows Defender blockiert ausführung?
+- kein Code Signing Certificate im code vorhanden
+
+Lösung:
+1. Rechtsklick auf die heruntergeladene .exe
+2. Eigenschaften
+3. Ganz unten bei Sicherheit den Haken bei "Zulassen" (Unblock) setzen.
 
 ---
 
