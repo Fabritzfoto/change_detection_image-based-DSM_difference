@@ -281,7 +281,7 @@ Daraus folgt:
 
 ## ⚠️ Einschränkungen
 
-* Fehler werden nicht zu gänzlich entfernt
+* Fehler werden nicht vollumfänglich entfernt
 * -> keine vollautomatische Lösung – fachliche Prüfung weiterhin erforderlich
 
 ---
