@@ -35,7 +35,7 @@ For this purpose, three data sources are used:
 
 ## ⚙️ Methodology of bDOM filtering (see bachelor thesis)
 
-(Script: `Core_bDOM_fitering_algorithm`)
+(Script: [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py))
 
 The workflow is based on a multi-stage filtering approach:
 
@@ -86,9 +86,9 @@ The filtering process creates a boolean mask which is applied to the tDOM.
 
 ## 🖥️ Functions
 
-(Script: `GUI_bDOM_filtering_for_practical_application`)
+(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/Core_bDOM_filtering_algorithm.py))
 
-* Implementation of the `Core_bDOM_fitering_algorithm` script
+* Implementation of the `Core_bDOM_fitering_algorithm.py` script
 * Graphical user interface (GUI) for easy application
 * Interfaces to control all algorithm parameters (thresholds and classes)
 * Automatic detection of connected 1 km² raster tiles in selected directories
@@ -112,14 +112,13 @@ The program automatically generates a structured output folder system:
 ### 🔗 Raster merge
 
 * Working with many 1 km² raster tiles is not user-friendly.
-* `GUI_terrainTIFF_merge` merges the tiles into a single continuous TIFF.
+* [`GUI_terrainTIFF_merge.py`](src/gui/GUI_terrainTIFF_merge.py) merges the tiles into a single continuous TIFF.
 
 ---
 
 ### 🖌️ Visualization
 
-* Visualization can be applied in ArcGIS Pro using
-  `tDOM -14 bis +30m.lyrx`.
+* Visualization can be applied in ArcGIS Pro using [`tDOM -14 bis +30m.lyrx`](docs/tDOM -14 bis +30m.lyrx).
 
 ---
 
@@ -204,7 +203,7 @@ Dazu werden 3 Datenquellen genutzt:
 ---
 
 ## ⚙️ Methodik der bDOM Filterung (vgl. Bachelorarbeit)
-(Skript: `Core_bDOM_fitering_algorithm`)
+(Skript: [`Core_bDOM_filtering_algorithm.py`](src/Core_bDOM_filtering_algorithm.py))
 
 Der Workflow basiert auf einem mehrstufigen Filteransatz:
 
