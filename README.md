@@ -255,7 +255,7 @@ Das Programm erzeugt automatisch die Ergebnisordnerstruktur:
 
 ### 🔗​ Raster Merge
 
-* Die Dartellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
+* Die Darstellung von vielen 1km² Rastern ist nicht benutzerfreundlich und umständlich.
 * `GUI_terrainTIFF_merge` führt die 1km² Raster zu einem geschlossenen TIFF zusammen.
 
 ### 🖌️​ Darstellung
