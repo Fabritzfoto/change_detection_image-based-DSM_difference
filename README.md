@@ -2,6 +2,7 @@
 
 > [!NOTE]
 > 🇩🇪 [Zur deutschen Version springen](#veränderungsdetektion-auf-basis-vpn-bdom-differenz-tdom-mit-filterung)
+> english `image based DSM` equals `bDOM` 
 ---
 
 # Change detection based on bDOM difference (tDOM) with filtering
