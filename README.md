@@ -219,7 +219,7 @@ Jede Klasse wird als binäres Raster gespeichert.
 
 Grundlegender Ansatz:
 > [!IMPORTANT]
-> Fehldetektionen bspw. durch Blattsatndveränderungen zeigen oft fragmentierte Muster, während bspw. Gebäudeveränderungen kompakte gleichmäßigere Strukturen bilden. 
+> Fehldetektionen bspw. durch Blattbestandsveränderungen zeigen oft fragmentierte Muster, während bspw. Gebäudeveränderungen kompakte gleichmäßigere Strukturen bilden. 
 > Folglich sind bspw. an veränderten Gebäuden größere Cluster vor zufinden
 
 (Die Filterung ist mittels Multiprocessing parallelisiert, um die Performance zu erhöhen)
