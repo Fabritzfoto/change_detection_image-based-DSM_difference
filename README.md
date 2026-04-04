@@ -320,14 +320,14 @@ Daraus folgt:
 ---
 
 ## 💾 Vorkompilierte Version
-Im Ordner `release/` steht eine sofort einsatzbereite ausführbare Datei zur Verfügung.
+Im Ordner `release/` steht eine sofort einsatzbereite ausführbare .exe Datei zur Verfügung.
 
 Hinweis:
 - Nur für Windows
 - Keine Python-Installation erforderlich
 
 Windows Defender blockiert ausführung?
-- kein Code Signing Certificate im code vorhanden
+- Ursache: kein Code Signing Certificate im code vorhanden
 
 Lösung:
 1. Rechtsklick auf die heruntergeladene .exe
