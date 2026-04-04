@@ -3,7 +3,9 @@
 > [!NOTE]
 > 🇩🇪 [Zur deutschen Version springen](#veränderungsdetektion-auf-basis-vpn-bdom-differenz-tdom-mit-filterung)
 
-> english `image based DSM` equals `bDOM` 
+> german: `bDOM` equals `image based DSM`
+
+> german: `tDOM` equals `dDSM (Difference Digital Surface Model)`
 ---
 
 # Change detection based on bDOM difference (tDOM) with filtering
@@ -88,7 +90,7 @@ Structural diagram:
 
 ## 🖥️ Functions
 
-(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
+(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))(exe Program: [`release/bDOM_changedetection.exe`](release/bDOM_changedetection.exe))
 
 * Implementation of the [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) script
 * Graphical user interface (GUI) for easy application
