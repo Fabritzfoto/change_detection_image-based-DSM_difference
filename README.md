@@ -90,7 +90,7 @@ Structural diagram:
 
 ## 🖥️ Functions
 
-(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py)) (exe Program: [`release/bDOM_changedetection.exe`](release/bDOM_changedetection.exe))
+(Script: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
 
 * Implementation of the [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) script
 * Graphical user interface (GUI) for easy application
@@ -151,19 +151,15 @@ This results in:
 ---
 
 ## 💾 Pre-compiled Version
-A ready-to-use executable file is available in the `release/` folder.
+In the release `Precompiled .exe GUI Version` Tab are two ready-to-use executable file available.
 
-Note:
-- For Windows only
-- No Python installation required
+```
+1. bDOM_change_detection.exe
+2. Raster_merger.exe
+```
 
-Windows Defender blocking execution?
-- caused by the missing code signing certificate in the code
+[![Download](https://img.shields.io/badge/Download-Precompiled_GUI%20release-blue?style=for-the-badge)](https://github.com/Fabritzfoto/change_detection_image-based-DSM_difference/releases/tag/v1.1)
 
-Solution:
-1. Right-click the downloaded .exe file
-2. Properties
-3. At the very bottom, under Security, check the "Unblock" box.
 ---
 
 ## 🎓 Scientific context
@@ -265,7 +261,6 @@ Strukturdiagram:
 
 ## 🖥️ Funktionen der 
 (Skript: [`GUI_bDOM_filtering_for_practical_application.py`](src/gui/GUI_bDOM_filtering_for_practical_application.py))
-(exe Programm: [`release/bDOM_changedetection.exe`](release/bDOM_changedetection.exe))
 
 * Implementierung des [`Core_bDOM_filtering_algorithm.py`](src/core/Core_bDOM_filtering_algorithm.py) Skripts
 * Grafische Benutzeroberfläche (GUI) zur einfachen Anwendung/Benutzung
@@ -320,19 +315,14 @@ Daraus folgt:
 ---
 
 ## 💾 Vorkompilierte Version
-Im Ordner `release/` steht eine sofort einsatzbereite ausführbare .exe Datei zur Verfügung.
+Im Release `Precompiled .exe GUI Version` stehen zwei sofort einsatzbereite ausführbare .exe Datei zur Verfügung.
 
-Hinweis:
-- Nur für Windows
-- Keine Python-Installation erforderlich
+```
+1. bDOM_change_detection.exe
+2. Raster_merger.exe
+```
 
-Windows Defender blockiert ausführung?
-- Ursache: kein Code Signing Certificate im code vorhanden
-
-Lösung:
-1. Rechtsklick auf die heruntergeladene .exe
-2. Eigenschaften
-3. Ganz unten bei Sicherheit den Haken bei "Zulassen" (Unblock) setzen.
+[![Download](https://img.shields.io/badge/Download-Precompiled_GUI%20release-blue?style=for-the-badge)](https://github.com/Fabritzfoto/change_detection_image-based-DSM_difference/releases/tag/v1.1)
 
 ---
 
