@@ -155,7 +155,7 @@ In the release `Precompiled .exe GUI Version` are two ready-to-use executable fi
 
 ```
 1. bDOM_change_detection.exe
-2. Raster_merger.exe
+2. Raster_merge.exe
 ```
 
 [![Download](https://img.shields.io/badge/Download-Precompiled_GUI%20release-blue?style=for-the-badge)](https://github.com/Fabritzfoto/change_detection_image-based-DSM_difference/releases/tag/v1.1)
@@ -319,7 +319,7 @@ Im Release `Precompiled .exe GUI Version` stehen zwei sofort einsatzbereite ausf
 
 ```
 1. bDOM_change_detection.exe
-2. Raster_merger.exe
+2. Raster_merge.exe
 ```
 
 [![Download](https://img.shields.io/badge/Download-Precompiled_GUI%20release-blue?style=for-the-badge)](https://github.com/Fabritzfoto/change_detection_image-based-DSM_difference/releases/tag/v1.1)
