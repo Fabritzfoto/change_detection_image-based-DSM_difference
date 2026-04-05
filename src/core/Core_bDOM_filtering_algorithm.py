@@ -6,7 +6,7 @@ forest filter, which filter different elevation ranges with different parameters
 Copyright (©) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
 
-<https://doi.org/10.5281/zenodo.19392931>
+<https://doi.org/10.5281/zenodo.19392546>
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY.
@@ -25,7 +25,7 @@ eine Wald Filterung, die unterschiedliche Höhenbereiche mit verschiedenen Param
 Copyright (C) 2026  Fabian Britze
 E-Mail: fabian.britze@gmail.com
 
-<https://doi.org/10.5281/zenodo.19392931>
+<https://doi.org/10.5281/zenodo.19392546>
 
 Dieses Programm wird in der Hoffnung verbreitet, dass es nützlich sein wird,
 aber OHNE JEGLICHE GEWÄHRLEISTUNG.
