@@ -151,7 +151,7 @@ This results in:
 ---
 
 ## 💾 Pre-compiled Version
-In the release `Precompiled .exe GUI Version` Tab are two ready-to-use executable file available.
+In the release `Precompiled .exe GUI Version` are two ready-to-use executable file available.
 
 ```
 1. bDOM_change_detection.exe
